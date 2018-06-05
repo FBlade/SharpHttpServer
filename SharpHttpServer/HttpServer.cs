@@ -16,9 +16,9 @@ namespace Qoollo.Net.Http
 
         private readonly int port;
 
-        public string Hostname { get; set; } = "localhost";
+        public string Hostname { get; set; }
 
-        public string Scheme { get; set; }= "http";
+        public string Scheme { get; set; }
 
         public HttpServer(int port)
         {
